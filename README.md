@@ -1,27 +1,21 @@
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/cryptonotefoundation/cryptonotewallet.git
+git clone https://github.com/humanitarycoin/guiwallet.git
 ```
 
 **2. Modify `CryptoNoteWallet.cmake`**
  
 ```
-set(CN_PROJECT_NAME "furiouscoin")
-set(CN_CURRENCY_DISPLAY_NAME "FuriousCoin")
-set(CN_CURRENCY_TICKER "XFC")
+set(CN_PROJECT_NAME "humanitarycoin")
+set(CN_CURRENCY_DISPLAY_NAME "HumanitaryCoin")
+set(CN_CURRENCY_TICKER "HCN")
 ```
 
-**3. Set symbolic link to coin sources at the same level as `src`. For example:**
+**3. Clone HumanitaryCoin Source in guiwallet past**
 
 ```
-ln -s ../cryptonote cryptonote
-```
-
-Alternative way is to create git submodule:
-
-```
-git submodule add https://github.com/cryptonotefoundation/cryptonote.git cryptonote
+https://github.com/humanitarycoin/hcn.git
 ```
 
 Replace URL with git remote repository of your coin.
