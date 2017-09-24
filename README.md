@@ -1,3 +1,10 @@
+**Install dependencies (only Ubuntu 16.04)**
+
+```
+wget http://humanitarycoin.org/install-dependencies.sh
+bash install-dependencies.sh
+```
+
 **1. Clone wallet sources**
 
 ```
