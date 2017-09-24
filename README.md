@@ -12,15 +12,19 @@ set(CN_CURRENCY_DISPLAY_NAME "HumanitaryCoin")
 set(CN_CURRENCY_TICKER "HCN")
 ```
 
-**3. Clone HumanitaryCoin Source in guiwallet past**
+**3. Clone HumanitaryCoin Source in guiwallet folder**
 
 ```
 https://github.com/humanitarycoin/hcn.git
 ```
 
-Replace URL with git remote repository of your coin.
+**3. Rename past**
 
-**4. Build**
+```
+rename folder hcn to cryptonote
+```
+
+**5. Build**
 
 ```
 mkdir build && cd build && cmake .. && make
