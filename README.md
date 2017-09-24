@@ -18,7 +18,7 @@ set(CN_CURRENCY_TICKER "HCN")
 https://github.com/humanitarycoin/hcn.git
 ```
 
-**3. Rename past**
+**3. Rename folder**
 
 ```
 rename folder hcn to cryptonote
